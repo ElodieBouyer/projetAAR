@@ -1,0 +1,74 @@
+.splash {
+	width: 50%;
+	height: 50%;
+}
+
+.splash-head {
+	font-size: 250%;
+}
+
+@media ( min-width : 78em) {
+	/* We increase the header font size even more */
+	.splash-head {
+		font-size: 300%;
+	}
+}
+
+.splash-subhead {
+	color: white;
+	letter-spacing: 0.05em;
+	opacity: 0.8;
+}
+
+.splash-head {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	border: 3px solid white;
+	padding: 1em 1.6em;
+	font-weight: 100;
+	border-radius: 5px;
+	line-height: 1em;
+}
+
+.splash-container {
+	z-index: 1;
+	overflow: hidden;
+	width: 100%;
+	height: 88%;
+	top: 0;
+	left: 0;
+	padding: 1em;
+}
+
+.splash {
+	/* absolute center .splash within .splash-container */
+	width: 80%;
+	height: 50%;
+	margin: auto;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}
+
+.box-detail {
+	margin: 20px;
+	margin-top: 5px;
+	list-style-type: none;
+}
+
+.id-detail {
+	float: left;
+	padding-right: 1em;
+}
+
+.table-detail {
+	margin: 20px;
+}
+
+.send-detail {
+	float: none;
+}
